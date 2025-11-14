@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* HOLIDAY SHIPPING NOTICE 2016-06-01 last updated CSS for New Checkout*/
+.banman {
+	margin: 10px 0;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #E0E4E9 url(/images/truck_bg.png) no-repeat;
+	border: 1px solid #CCC;
+	display: block;
+	width: 100%;
+	min-height: 80px;
+	background-position: right bottom;
+}
+.banman h4 {
+	color: #004B85;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 100px 0 0;	
+}
+.banman p {
+	color: #004B85;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 100px 0 0;
+	line-height: 1.4em;
+}
+p.underline-link {
+	font-size: 16px !important;
+    text-decoration: dotted underline #757575 2px!important;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.25rem;
+    text-decoration-color: #757575;
+    text-decoration-style: dotted;
+}
+
+@media (max-width: 767px) {
+.banman {
+	background-image: none!important;
+	background: #E0E4E9;
+}
+.banman h4 {
+	font-size: 16px;
+	margin: 0;
+}
+.banman p {
+	font-size: 12px;
+	margin: 0;
+	line-height: 1.2em;
+}
+}
